@@ -1,0 +1,89 @@
+* {
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.myBox {
+    width: 650px;
+    height: 700px;
+    background-color: rgb(56, 56, 56);
+}
+
+.playGround {
+    width: 600px;
+    height: 200px;
+    background-color: rgb(77, 77, 77);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 150px;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    width: 155px;
+    object-fit: cover;
+    margin: 15px;
+    border: 5px solid rgb(226, 1, 1);
+    border-radius: 20px;
+}
+
+.resultBox {
+    width: 600px;
+    height: 200px;
+    background-color: rgb(77, 77, 77);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uResultBox {
+    width: 155px;
+    height: 100px;
+    color: aliceblue;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.cResultBox {
+    width: 155px;
+    height: 100px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+/* #compScore{
+    font-size: 40px;
+} */
+.winner {
+    width: 600px;
+    height: 200px;
+    background-color: rgb(77, 77, 77);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#decWinner {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}

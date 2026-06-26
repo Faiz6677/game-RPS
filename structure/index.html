@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game RPS</title>
+    <!-- style -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <div class="myBox">
+        <div class="playGround">
+            <img src="../res/rock.png" alt="" class="btn" id="rock">
+            <img src="../res/paper.png" alt="" class="btn" id="paper">
+            <img src="../res/scissors.png" alt="" class="btn" id="scissor">
+        </div>
+        <div class="resultBox">
+            <div class="uResultBox">
+                <h1 id="userScore">0</h1>
+                <p>User Score</p>
+            </div>
+            <div class="cResultBox">
+                <h1 id="compScore">0</h1>
+                <p>Computer Score</p>
+            </div>
+        </div>
+        <div class="winner">
+            <h2 id="decWinner">Winner is ?</h2>
+        </div>
+    </div>
+    <!-- logic -->
+    <script src="../logic/app.js"></script>
+</body>
+
+</html>
